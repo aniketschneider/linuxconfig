@@ -1,0 +1,7 @@
+[user]
+	name = Aniket Schneider
+	email = aniket.schneider@gmail.com
+[alias]
+	lol = log --graph --decorate --oneline
+[color]
+	ui = always

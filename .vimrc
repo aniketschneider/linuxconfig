@@ -11,6 +11,7 @@ set ruler
 set scrolloff=5                         " keep 5 lines at top and bottom
 set textwidth=80
 set background=dark                     " makes text more readable
+set lazyredraw                          " don't redraw mid-macro
 
 set ignorecase smartcase                " search ignores case unless given
                                         " a capitalized query
