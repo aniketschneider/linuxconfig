@@ -47,4 +47,7 @@ vnoremap ; :
 nnoremap <C-@> a
 imap <C-@> <Esc>
 
+" :C clears current search pattern
+command C let @/=""
+
 filetype plugin indent on
