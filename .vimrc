@@ -37,9 +37,11 @@ set nocompatible
 
 nnoremap <space> za                     " spacebar toggles folds
 
-" swap : and ; in normal mode
+" swap : and ; in normal mode and visual mode
 nnoremap : ;
 nnoremap ; :
+vnoremap : ;
+vnoremap ; :
 
 " C-space toggles in and out of input mode
 nnoremap <C-@> a
