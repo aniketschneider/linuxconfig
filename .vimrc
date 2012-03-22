@@ -9,7 +9,7 @@ set number                              " add line numbering at left
 highlight LineNr ctermfg=darkgrey       " make line numbers dark
 set ruler
 set scrolloff=5                         " keep 5 lines at top and bottom
-set textwidth=80
+set textwidth=80                        " 80 width terminal
 set background=dark                     " makes text more readable
 set lazyredraw                          " don't redraw mid-macro
 
