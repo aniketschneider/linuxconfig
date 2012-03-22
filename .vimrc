@@ -4,7 +4,7 @@ endif
 
 set mouse=a                             " enables mouse outside gvim
 
-set cmdheight=1                         " size of command bar
+set cmdheight=2                         " size of command bar
 set number                              " add line numbering at left
 highlight LineNr ctermfg=darkgrey       " make line numbers dark
 set ruler
@@ -40,5 +40,9 @@ nnoremap <space> za                     " spacebar toggles folds
 " swap : and ; in normal mode
 nnoremap : ;
 nnoremap ; :
+
+" C-space toggles in and out of input mode
+nnoremap <C-@> a
+imap <C-@> <Esc>
 
 filetype plugin indent on

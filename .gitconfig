@@ -5,3 +5,5 @@
 	lol = log --graph --decorate --oneline
 [color]
 	ui = always
+[core]
+	excludesfile = /home/aniket/.gitignore
