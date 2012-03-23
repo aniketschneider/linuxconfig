@@ -12,6 +12,7 @@ set scrolloff=5                         " keep 5 lines at top and bottom
 set textwidth=80                        " 80 width terminal
 set background=dark                     " makes text more readable
 set lazyredraw                          " don't redraw mid-macro
+set autowrite                           " autosave on make, etc
 
 set ignorecase smartcase                " search ignores case unless given
                                         " a capitalized query
