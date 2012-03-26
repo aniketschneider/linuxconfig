@@ -1,3 +1,5 @@
+set nocompatible
+
 if has("syntax")
     syntax on
 endif
@@ -23,8 +25,6 @@ set tabstop=8
 set shiftround                          " round to next tab stop
 set expandtab                           " spaces instead of tabs
 
-" OCaml settings
-autocmd FileType ml setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
 set showcmd
 set showmatch
@@ -33,8 +33,6 @@ set hlsearch                            " highlights all matches
 
 set noerrorbells
 set visualbell t_vb=
-
-set nocompatible
 
 nnoremap <space> za                     " spacebar toggles folds
 
@@ -52,3 +50,6 @@ imap <C-@> <Esc>
 command C let @/=""
 
 filetype plugin indent on
+
+" OCaml settings
+autocmd FileType ocaml setlocal shiftwidth=2 tabstop=2 softtabstop=2
