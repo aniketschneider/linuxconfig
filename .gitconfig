@@ -2,7 +2,7 @@
 	name = Aniket Schneider
 	email = aniket.schneider@gmail.com
 [alias]
-	lol = log --graph --decorate --oneline
+	lol = log --graph --decorate --oneline --all
 [color]
 	ui = always
 [core]
